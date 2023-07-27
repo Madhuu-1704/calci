@@ -1,0 +1,48 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    background-image:url("https://purpletutor.com/wp-content/uploads/2023/03/Fun-with-math.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .calculator {
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #38155d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8c45a0;
+  }
+  
+  button:active {
+    background-color: #76398c;
+  }
+  
